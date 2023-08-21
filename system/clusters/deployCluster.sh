@@ -40,4 +40,5 @@ flux bootstrap github \
   --owner=gr4n0t4 \
   --repository=eoepca \
   --branch="${BRANCH}" \
+  --team=Developers \
   --path="system/clusters/${TARGET}/system"
