@@ -37,7 +37,7 @@ export KUBECONFIG="$TMP_KUBECONFIG"
 
 # Initialise flux in the cluster
 flux bootstrap github \
-  --owner=gr4n0t4 \
+  --owner=EOEPCA \
   --repository=eoepca \
   --branch="${BRANCH}" \
   --team=Developers \
