@@ -14,7 +14,7 @@ spec:
         name: eoepca
         namespace: common
   values:
-    hostname: develop.eoepca.org
+    hostname: 192.168.1.43.nip.io
     # image:
     #   repository: eoepca/jupyterlab
     #   tag: latest

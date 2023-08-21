@@ -62,7 +62,7 @@ function deduce_public_ip() {
 }
 
 function run_acceptance_tests() {
-  public_hostname="develop.eoepca.org"
+  public_hostname="192.168.1.43.nip.io"
   echo "INFO: Using PUBLIC HOSTNAME: ${public_hostname}"
 
   echo "INFO: Invoking acceptance tests..."

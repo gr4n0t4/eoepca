@@ -9,7 +9,7 @@ def main():
     USER_NAME="eric"
     USER_PASSWORD="defaultPWD"
     # domain = "185.52.193.87.nip.io"
-    domain = "develop.eoepca.org"
+    domain = "192.168.1.43.nip.io"
 
     base_url = "https://auth." + domain
 

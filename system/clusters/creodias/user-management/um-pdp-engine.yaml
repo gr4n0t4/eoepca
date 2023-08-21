@@ -18,7 +18,7 @@ spec:
       # pullPolicy: Always
     global:
       nginxIp: 185.52.192.231
-      domain: auth.develop.eoepca.org
+      domain: auth.192.168.1.43.nip.io
     volumeClaim:
       name: eoepca-userman-pvc
       create: false
