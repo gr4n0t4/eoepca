@@ -1,4 +1,4 @@
-apiVersion: helm.toolkit.fluxcd.io/v1
+apiVersion: helm.toolkit.fluxcd.io/v1beta2
 kind: HelmRelease
 metadata:
   name: proc-ades
@@ -48,7 +48,7 @@ spec:
       enabled: true
       annotations: {}
       hosts:
-        - host: ades-open.192.168.1.43.nip.io
+        - host: ades-open.develop.eoepca.org
           paths:
             - path: /
               pathType: ImplementationSpecific    
@@ -93,12 +93,12 @@ spec:
         STAGEIN_AWS_SECRET_ACCESS_KEY: test
         STAGEIN_AWS_REGION: RegionOne
 
-        STAGEOUT_AWS_SERVICEURL: https://minio.192.168.1.43.nip.io
+        STAGEOUT_AWS_SERVICEURL: https://minio.develop.eoepca.org
 
       useResourceManager: "true"
       resourceManagerWorkspacePrefix: "develop-user"
-      resourceManagerEndpoint: "https://workspace-api.192.168.1.43.nip.io"
-      platformDomain: "https://auth.192.168.1.43.nip.io"
+      resourceManagerEndpoint: "https://workspace-api.develop.eoepca.org"
+      platformDomain: "https://auth.develop.eoepca.org"
 
       pod_env_vars:
         yaml: "{}"
